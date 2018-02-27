@@ -1,0 +1,32 @@
+commit f58f3c16a7587d0af8e655f035228665fffdd4e7
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Fri Mar 4 12:12:47 2016 -0800
+
+    Vagrantfile: Update box url and checksum
+
+commit e9d39490bbb86bad5394c5189d4588d10b54147d
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Mon Sep 28 18:21:02 2015 -0400
+
+    Add zendesk-modmail integration
+
+commit c65a8e189783cd73c537566020ab2d493d44e2ce
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Mon Aug 24 20:28:07 2015 -0400
+
+    Add email provider for sending emails.
+
+commit dc36addb0dbbe46d186cd0e6031ee46beb5dcf8c
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Sun Jul 6 15:22:34 2014 -0400
+
+    WrappedUser: set context_thing_fullname if admin.
+    
+    We should avoid adding the entire `Thing` as an attribute
+    because of caching loops.
+
+commit d2c3fb6832e31c24fd4d83f7cfc82cd96d527e15
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Thu Jul 30 05:19:49 2015 -0400
+
+    Restrict threaded modmail to html rendering.
